@@ -1,0 +1,43 @@
+<svg width="600" height="420" viewBox="0 0 600 420" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Unihop — Ride. Connect. Go.</title>
+  <desc>Unihop student carpool logo, two cars, light version</desc>
+  <rect x="40" y="20" width="520" height="380" rx="24" fill="#F5FBF8"/>
+  <rect x="40" y="20" width="520" height="380" rx="24" fill="none" stroke="#1D9E75" stroke-width="1.5"/>
+  <circle cx="300" cy="170" r="108" fill="white" stroke="#1D9E75" stroke-width="3"/>
+  <line x1="205" y1="212" x2="395" y2="212" stroke="#9FE1CB" stroke-width="2" stroke-linecap="round"/>
+  <!-- Car 1 teal -->
+  <rect x="210" y="192" width="72" height="20" rx="5" fill="#1D9E75"/>
+  <path d="M220 192 L230 175 L266 175 L276 192 Z" fill="#1D9E75"/>
+  <path d="M231 190 L238 177 L265 177 L272 190 Z" fill="#9FE1CB" opacity="0.55"/>
+  <circle cx="230" cy="214" r="9" fill="#085041"/>
+  <circle cx="230" cy="214" r="4" fill="white"/>
+  <circle cx="266" cy="214" r="9" fill="#085041"/>
+  <circle cx="266" cy="214" r="4" fill="white"/>
+  <!-- Car 2 coral -->
+  <rect x="318" y="192" width="72" height="20" rx="5" fill="#D85A30"/>
+  <path d="M328 192 L338 175 L374 175 L384 192 Z" fill="#D85A30"/>
+  <path d="M339 190 L346 177 L373 177 L380 190 Z" fill="#F0997B" opacity="0.55"/>
+  <circle cx="338" cy="214" r="9" fill="#7a2a10"/>
+  <circle cx="338" cy="214" r="4" fill="white"/>
+  <circle cx="374" cy="214" r="9" fill="#7a2a10"/>
+  <circle cx="374" cy="214" r="4" fill="white"/>
+  <!-- Hop arcs -->
+  <path d="M220 170 Q258 112 300 102 Q342 92 380 137" fill="none" stroke="#1D9E75" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M232 168 Q265 120 300 112 Q334 105 368 145" fill="none" stroke="#D85A30" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M244 166 Q272 130 300 122 Q327 116 356 150" fill="none" stroke="#9FE1CB" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Peak dot -->
+  <circle cx="300" cy="98" r="8" fill="#1D9E75"/>
+  <circle cx="300" cy="98" r="4" fill="white"/>
+  <!-- Graduation cap -->
+  <rect x="288" y="84" width="24" height="5" rx="1.5" fill="#1D9E75"/>
+  <polygon points="300,74 312,84 288,84" fill="#1D9E75"/>
+  <line x1="312" y1="85" x2="312" y2="93" stroke="#1D9E75" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="312" cy="94" r="2.5" fill="#D85A30"/>
+  <!-- Wordmark -->
+  <text x="300" y="338" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="60" font-weight="700" letter-spacing="-1">
+    <tspan fill="#1D9E75">uni</tspan><tspan fill="#D85A30">hop</tspan>
+  </text>
+  <text x="300" y="370" text-anchor="middle" font-family="'Trebuchet MS', Helvetica, sans-serif" font-size="12" fill="#888780" letter-spacing="4">RIDE · CONNECT · GO</text>
+  <line x1="238" y1="382" x2="362" y2="382" stroke="#9FE1CB" stroke-width="1"/>
+  <text x="300" y="397" text-anchor="middle" font-family="'Trebuchet MS', Helvetica, sans-serif" font-size="10" fill="#1D9E75" letter-spacing="2">STUDENT CARPOOL</text>
+</svg>
