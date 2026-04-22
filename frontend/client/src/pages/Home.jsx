@@ -95,6 +95,28 @@ function Home() {
           </div>
         </div>
       </main>
+      <main className="page-content" style={{ padding: '25px 0' }}>
+        <div className="page-container">
+          <div className="section">
+            
+            <div className="rides-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(100px, fr))', gap: '10px' }}>
+              <div className="ride-card" style={{ padding: '25px', border: '1px solid #e2e8f0', borderRadius: '16px' }}>
+                <div className="ride-card-route" style={{ fontWeight: '700', fontSize: '1.2rem', marginBottom: '15px' }}>
+                  Bopal <span className="arrow" style={{ color: '#3b82f6' }}>→</span> PDEU Main Gate 
+                </div>
+                <div className="ride-card-meta" style={{ display: 'flex', gap: '15px', color: '#64748b', marginBottom: '20px' }}>
+                  <span>🕒 8:00 AM</span>
+                  <span>👤 3 Seats left</span>
+                </div>
+                <div className="ride-card-footer" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                  <span className="ride-price" style={{ fontSize: '1.5rem', fontWeight: '800', color: '#1e293b' }}>₹70</span>
+                  <Link to="/find-ride"><button className="btn btn-primary btn-sm">Join Hop</button></Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
 
       {/* --- About Section --- */}
       <section id="about" className="section" style={{ padding: '100px 0', backgroundColor: '#f8fafc', borderTop: '1px solid #e2e8f0' }}>

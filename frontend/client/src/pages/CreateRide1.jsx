@@ -13,7 +13,9 @@ function CreateRide1({ addRide }) { // Accept addRide prop from App.jsx
     seats: 1,
     price: '',
     driver: 'Krish Patel' // Default for now
+  
   });
+  
 
   const handleSubmit = (e) => {
     e.preventDefault();
